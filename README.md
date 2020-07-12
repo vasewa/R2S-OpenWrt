@@ -4,19 +4,21 @@
 
 ### 注意事项：
 
-1. 登陆IP：192.168.1.1 密码：无
+1. 靠近USB电源口的为WAN口，远离的为LAN口（与官方的接口正好相反）
 
-2. 可用 OpenWrt 内置升级功能刷写升级
+2. 登陆IP：192.168.1.1 密码：无
 
-3. SSRP的使用方法：①添加你要的订阅链接 ②再在最后加一行空行 ③右下角点一下保存并应用 ④更新所有订阅服务器节点
+3. 可用 OpenWrt 内置升级功能刷写升级
 
-4. 如无法联网，请自行排查 ipv6 连通情况（推荐关闭ipv6）
+4. SSRP的使用方法：①添加你要的订阅链接 ②再在最后加一行空行 ③右下角点一下保存并应用 ④更新所有订阅服务器节点
 
-5. 从友善版固件刷写本固件，建议使用dd写卡：
+5. 如无法联网，请自行排查 ipv6 连通情况（推荐关闭ipv6）
+
+6. 从友善版固件刷写本固件，建议使用dd写卡：
 ```
 dd if=/tmp/upload/openwrt.img of=/dev/mmcblk0 conv=fsync
 ```
-6. 发布地址：https://github.com/vasewa/R2S-OpenWrt/releases
+7. 发布地址：https://github.com/vasewa/R2S-WaWrt/releases
 
 ### 版本信息：
 
