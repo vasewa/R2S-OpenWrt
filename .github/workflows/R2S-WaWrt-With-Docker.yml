@@ -1,4 +1,4 @@
-name: R2S-OpenWrt-With-Docker
+name: R2S-WaWrt-With-Docker
 
 on:
 #  push:
@@ -46,7 +46,7 @@ jobs:
         expire-in: 1days # Setting this to 0 will delete all artifacts
     - name: Prepare Mixedwrt
       run: |
-        sudo chown -R runner:runner /home/runner/work/R2S-OpenWrt
+        sudo chown -R runner:runner /home/runner/work/R2S-WaWrt
         cp -r ./SCRIPTS/. ./
         /bin/bash 01_get_ready.sh
     - name: Prepare Package
