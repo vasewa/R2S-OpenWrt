@@ -40,7 +40,7 @@ dd if=/tmp/upload/openwrt.img of=/dev/mmcblk0 conv=fsync
 
 6. 核心频率1.512GHz
 
-### 鸣谢
+### 鸣谢：
 
 1. QiuSimons
 
