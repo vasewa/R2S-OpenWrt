@@ -32,7 +32,7 @@ dd if=/tmp/upload/openwrt.img of=/dev/mmcblk0 conv=fsync
 
 2. 内置三款主题
 
-3. 分为两个版本，标准版（With Docker）和精简版（without Docker）
+3. 分为两个版本，标准版（With Docker）和精简版（Without Docker）
 
 4. 标准版插件包含：SSRP，OpenClash，ADBYBY，BearDropper，Docker，微信推送，网易云音乐解锁，SmartDNS，迅雷快鸟，京东签到，USB打印服务器，SQM，上网时间控制，网络唤醒，DDNS，UPNP，FullCone(防火墙中开启)，流量分载(防火墙中开启)，SFE流量分载(也就是SFE加速，防火墙中开启，且默认开启)，BBR（默认开启），irq优化，OLED屏幕支持
 
