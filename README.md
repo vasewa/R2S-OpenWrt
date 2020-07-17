@@ -38,7 +38,7 @@ dd if=/tmp/upload/openwrt.img of=/dev/mmcblk0 conv=fsync
 
 5. 精简版插件包含：SSRP，OpenClash，ADBYBY，BearDropper，SQM，上网时间控制，网络唤醒，DDNS，UPNP，FullCone(防火墙中开启)，流量分载(防火墙中开启)，SFE流量分载(也就是SFE加速，防火墙中开启，且默认开启)，BBR（默认开启），irq优化，OLED屏幕支持
 
-6. 核心频率1.512GHz
+6. 核心频率提升至1.608GHz
 
 ### 鸣谢：
 
