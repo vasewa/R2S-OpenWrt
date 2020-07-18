@@ -49,6 +49,8 @@ wget https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/gen
 popd
 #OC
 cp -f ../PATCH/999-unlock-1608mhz-rk3328.patch ./target/linux/rockchip/patches-5.4/999-unlock-1608mhz-rk3328.patch
+# Patch default ipaddr
+patch -p1 < ../PATCH/change-default-ipaddr.patch
 
 ##获取额外package
 #更换GCC版本
